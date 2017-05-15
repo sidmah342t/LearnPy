@@ -1,0 +1,23 @@
+~\PycharmProjects\LearnPy [master +1 ~0 -3 | +0 ~0 -1 !]> git init
+Reinitialized existing Git repository in C:/Users/siddhartha/PycharmProjects/LearnPy/.git/
+~\PycharmProjects\LearnPy [master +1 ~0 -3 | +0 ~1 -0 !]> git commit -m "first commit"
+[master 82ba603] first commit
+ 4 files changed, 613 insertions(+), 23 deletions(-)
+ delete mode 100644 .idea/LearnPy.iml
+ delete mode 100644 .idea/misc.xml
+ delete mode 100644 .idea/modules.xml
+ create mode 100644 .idea/workspace.xml
+~\PycharmProjects\LearnPy [master +0 ~1 -0 !]> git remote add origin https://github.com/sidmah342t/LearnPy.git
+fatal: remote origin already exists.
+~\PycharmProjects\LearnPy [master +0 ~1 -0 !]> git remote add terse https://github.com/sidmah342t/LearnPy.git
+~\PycharmProjects\LearnPy [master +0 ~1 -0 !]> git push -u terse master
+Counting objects: 23, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (23/23), 11.76 KiB | 0 bytes/s, done.
+Total 23 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+Branch master set up to track remote branch master from terse.
+To https://github.com/sidmah342t/LearnPy.git
+ * [new branch]      master -> master
+~\PycharmProjects\LearnPy [master ≡ +0 ~1 -0 !]>
